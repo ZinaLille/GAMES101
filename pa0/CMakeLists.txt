@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 4.4.2)
+project (Transformation)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+include_directories("D:/GAMES101_Code/eigen-5.0.0")
+message(STATUS "Eigen include path: D:/GAMES101_Code/eigen-5.0.0")
+add_executable (Transformation main.cpp)
